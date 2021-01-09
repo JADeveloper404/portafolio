@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #1b262c;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px;
+  height: 90px;
+}
+.header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header .contenedor .logo {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+.header .contenedor .logo a {
+  text-decoration: none;
+  color: #0f4c75;
+}
+.header .contenedor .logo a img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  color: #0f4c75;
+}
+.header .contenedor .barra .opciones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.header .contenedor .barra .opciones li {
+  margin-left: 20px;
+}
+.header .contenedor .barra .opciones li a {
+  text-decoration: none;
+  color: #3282b8;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 5px 0;
+}
+.header .contenedor .barra .opciones li a:hover {
+  color: #bbe1fa;
+}
+.header .contenedor .barra .opciones li .active {
+  border-bottom: 2px solid #bbe1fa;
+}
+
+/*# sourceMappingURL=estilos.css.map */

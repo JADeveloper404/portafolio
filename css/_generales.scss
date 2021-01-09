@@ -1,0 +1,24 @@
+$primerColor: #1b262c;
+$segundoColor: #0f4c75;
+$tercerColor: #3282b8;
+$cuartoColor: #bbe1fa;
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
