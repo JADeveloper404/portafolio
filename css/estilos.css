@@ -109,5 +109,54 @@ body {
     margin-bottom: 0%;
   }
 }
+.trabajos {
+  width: 100%;
+  background: #1b262c;
+}
+.trabajos .contenedor {
+  overflow: hidden;
+}
+.trabajos .contenedor .titulo {
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+.trabajos .contenedor .titulo h1 {
+  color: #bbe1fa;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.trabajos .contenedor .contenido-trabajos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.trabajos .contenedor .contenido-trabajos .trabajo {
+  width: 23%;
+  margin-bottom: 40px;
+}
+.trabajos .contenedor .contenido-trabajos .trabajo img {
+  width: 100%;
+  border-radius: 10px;
+}
+.trabajos .contenedor .contenido-trabajos .trabajo .informacion {
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+.trabajos .contenedor .contenido-trabajos .trabajo .informacion a {
+  text-decoration: none;
+}
+.trabajos .contenedor .contenido-trabajos .trabajo .informacion a p {
+  color: #3282b8;
+  font-size: 1.4375rem;
+  line-height: 35px;
+}
+.trabajos .contenedor .contenido-trabajos .trabajo .informacion p {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
 
 /*# sourceMappingURL=estilos.css.map */

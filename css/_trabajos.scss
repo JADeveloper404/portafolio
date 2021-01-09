@@ -1,0 +1,49 @@
+.trabajos {
+  width: 100%;
+  background: $primerColor;
+  .contenedor {
+    overflow: hidden;
+    .titulo {
+      width: 100%;
+      text-align: center;
+      padding: 50px;
+      h1 {
+        color: $cuartoColor;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+    }
+    .contenido-trabajos {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .trabajo {
+        width: 23%;
+        margin-bottom: 40px;
+        img {
+          width: 100%;
+          border-radius: 10px;
+        }
+        .informacion {
+          width: 100%;
+          color: #ffffff;
+          text-align: center;
+          margin-top: 10px;
+          a {
+            text-decoration: none;
+            p {
+              color: $tercerColor;
+              font-size: 1.4375rem;
+              line-height: 35px;
+            }
+          }
+          p {
+            font-weight: 300;
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}
