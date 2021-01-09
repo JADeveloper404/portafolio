@@ -8,7 +8,7 @@
       text-align: center;
       padding: 50px;
       h1 {
-        color: $cuartoColor;
+        color: $tercerColor;
         text-transform: uppercase;
         font-weight: 400;
       }
@@ -24,7 +24,7 @@
         img {
           width: 100%;
           border-radius: 10px;
-          filter: grayscale(100%);
+          // filter: grayscale(100%);
           &:hover {
             filter: grayscale(0);
           }

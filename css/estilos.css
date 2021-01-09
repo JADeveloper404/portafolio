@@ -122,7 +122,7 @@ body {
   padding: 50px;
 }
 .trabajos .contenedor .titulo h1 {
-  color: #bbe1fa;
+  color: #3282b8;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -139,7 +139,6 @@ body {
 .trabajos .contenedor .contenido-trabajos .trabajo img {
   width: 100%;
   border-radius: 10px;
-  filter: grayscale(100%);
 }
 .trabajos .contenedor .contenido-trabajos .trabajo img:hover {
   filter: grayscale(0);
@@ -197,7 +196,8 @@ body {
 }
 .tecnologias .contenedor .contenido-tecnologias .tecnologia img {
   width: 100%;
-  border-radius: 100%;
+  border: 7px solid #0f4c75;
+  border-radius: 20px;
   vertical-align: top;
   object-fit: cover;
 }
