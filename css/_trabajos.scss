@@ -24,6 +24,10 @@
         img {
           width: 100%;
           border-radius: 10px;
+          filter: grayscale(100%);
+          &:hover {
+            filter: grayscale(0);
+          }
         }
         .informacion {
           width: 100%;

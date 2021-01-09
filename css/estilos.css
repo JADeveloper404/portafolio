@@ -139,6 +139,10 @@ body {
 .trabajos .contenedor .contenido-trabajos .trabajo img {
   width: 100%;
   border-radius: 10px;
+  filter: grayscale(100%);
+}
+.trabajos .contenedor .contenido-trabajos .trabajo img:hover {
+  filter: grayscale(0);
 }
 .trabajos .contenedor .contenido-trabajos .trabajo .informacion {
   width: 100%;
@@ -157,6 +161,45 @@ body {
 .trabajos .contenedor .contenido-trabajos .trabajo .informacion p {
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+.tecnologias {
+  width: 100%;
+  background: #1b262c;
+}
+.tecnologias .contenedor {
+  overflow: hidden;
+}
+.tecnologias .contenedor .titulo {
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  border-top: 3px solid #3282b8;
+}
+.tecnologias .contenedor .titulo h1 {
+  color: #3282b8;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.tecnologias .contenedor .contenido-tecnologias {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tecnologias .contenedor .contenido-tecnologias .tecnologia {
+  width: 15%;
+  display: flex;
+  margin: 0 5px 50px 5px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tecnologias .contenedor .contenido-tecnologias .tecnologia img {
+  width: 100%;
+  border-radius: 100%;
+  vertical-align: top;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=estilos.css.map */

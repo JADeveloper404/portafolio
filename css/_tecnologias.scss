@@ -1,0 +1,38 @@
+.tecnologias {
+  width: 100%;
+  background: $primerColor;
+  .contenedor {
+    overflow: hidden;
+    .titulo {
+      width: 100%;
+      text-align: center;
+      padding: 50px;
+      border-top: 3px solid $tercerColor;
+      h1 {
+        color: $tercerColor;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+    }
+    .contenido-tecnologias {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .tecnologia {
+        width: 15%;
+        display: flex;
+        margin: 0 5px 50px 5px;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+          img {
+            width: 100%;
+            border-radius: 100%;
+            vertical-align: top;
+            object-fit: cover;
+          }
+      }
+    }
+  }
+}
