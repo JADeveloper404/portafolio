@@ -1,0 +1,37 @@
+.presentacion {
+  width: 100%;
+  height: calc(100vh - 90px);
+  background: url('../img/bg-pre.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  .contenedor {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .desarrollador {
+      text-align: center;
+      color: $primerColor;
+      font-weight: normal;
+      border: 4px solid $tercerColor;
+      border-radius: 10px;
+      width: 500px;
+      padding: 50px;
+      background: rgba($segundoColor, .5);
+      .nombre {
+        font-size: 50px;
+        animation: bajar 2s;
+      }
+    }
+  }
+}
+
+@keyframes bajar {
+    from {
+      margin-bottom: 20%;
+    }
+  
+    to {
+      margin-bottom: 0%;
+    }
+}
