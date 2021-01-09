@@ -33,6 +33,9 @@
             vertical-align: top;
             object-fit: cover;
           }
+        &:hover {
+          transform: scale(1.1);
+        }
       }
     }
   }

@@ -201,6 +201,9 @@ body {
   vertical-align: top;
   object-fit: cover;
 }
+.tecnologias .contenedor .contenido-tecnologias .tecnologia:hover {
+  transform: scale(1.1);
+}
 
 .contacto {
   width: 100%;
@@ -270,6 +273,60 @@ body {
 .contacto .contenedor .formulario .boton:hover {
   background: #42b883;
   color: #f2f2f2;
+}
+
+.footer {
+  background: #1B1C1E;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer .redes {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+.footer .redes a {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 0 20px;
+  font-size: 1.75rem;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 100%;
+  text-align: center;
+}
+.footer .redes .twitter:hover {
+  background: #1da1f2;
+}
+.footer .redes .facebook:hover {
+  background: #3b5998;
+}
+.footer .redes .github:hover {
+  background: #c9510c;
+}
+.footer .redes .instagram:hover {
+  background: #833ab4;
+}
+.footer .personal {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.footer .personal p {
+  color: #ffffff;
+}
+.footer .personal p span {
+  font-weight: bold;
+  color: #3282b8;
+}
+.footer .personal p a {
+  text-decoration: none;
+  color: #3282b8;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=estilos.css.map */

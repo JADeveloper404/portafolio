@@ -1,0 +1,53 @@
+.footer {
+  background: $footer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .redes {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px;
+    a {
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      margin: 0 20px;
+      font-size: 1.75rem;
+      color: #ffffff;
+      padding: 20px;
+      border-radius: 100%;
+      text-align: center;
+    }
+    .twitter:hover {
+      background: #1da1f2;
+    }
+    .facebook:hover {
+      background: #3b5998;
+    }
+    .github:hover {
+      background: #c9510c;
+    }
+    .instagram:hover {
+      background: #833ab4;
+    }
+  }
+  .personal {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    p {
+      color: #ffffff;
+      span {
+        font-weight: bold;
+        color: $tercerColor;
+      }
+      a{
+        text-decoration: none;
+        color: $tercerColor;
+        font-weight: bold;
+      }
+    }
+  }
+}
