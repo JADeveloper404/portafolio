@@ -18,20 +18,23 @@
       width: 500px;
       padding: 50px;
       background: rgba($segundoColor, .5);
+      animation: bajar 2s ease-in-out;
       .nombre {
         font-size: 50px;
-        animation: bajar 2s;
+        display: block;
+      }
+      .profesion {
+        display: block;
       }
     }
   }
 }
 
 @keyframes bajar {
-    from {
-      margin-bottom: 20%;
-    }
-  
-    to {
-      margin-bottom: 0%;
-    }
+  from {
+    margin-bottom: 20%;
+  }  
+  to {
+    margin-bottom: 0%;
+  }
 }

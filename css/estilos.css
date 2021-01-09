@@ -91,10 +91,14 @@ body {
   width: 500px;
   padding: 50px;
   background: rgba(15, 76, 117, 0.5);
+  animation: bajar 2s ease-in-out;
 }
 .presentacion .contenedor .desarrollador .nombre {
   font-size: 50px;
-  animation: bajar 2s;
+  display: block;
+}
+.presentacion .contenedor .desarrollador .profesion {
+  display: block;
 }
 
 @keyframes bajar {
