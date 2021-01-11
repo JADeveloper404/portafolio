@@ -5,14 +5,15 @@ const desplegar = () => {
   const icono = document.querySelector('.despliegue a i');
 
   despliegue.addEventListener('click', ()=>{
-    opciones.classList.toggle('opt-active');
-    opciones.style.transition = 'transform 0.3s ease-in';
-
+    
     if(icono.className == 'fas fa-bars') {
       icono.className = "fas fa-long-arrow-alt-right";
     }else {
       icono.className = 'fas fa-bars';
     }
+
+    opciones.classList.toggle('opt-active');
+    opciones.style.transition = 'transform 0.3s ease-in';
     //Animar los li
 
     li.forEach((link, index) => {
