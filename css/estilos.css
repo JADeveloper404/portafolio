@@ -378,6 +378,11 @@ body {
     width: 50px;
   }
 }
+@media screen and (max-width: 477px) {
+  .presentacion .contenedor .desarrollador .nombre {
+    font-size: 40px;
+  }
+}
 .opt-active {
   transform: translateX(0%) !important;
 }

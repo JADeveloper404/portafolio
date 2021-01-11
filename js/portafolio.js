@@ -32,7 +32,7 @@ const enlaces = document.querySelectorAll('.opciones a');
 
 enlaces.forEach(enl => {
   enl.addEventListener('click', (e)=>{
-    e.preventDefault();
+    // e.preventDefault();
     enlaces.forEach(enlace => { enlace.classList.remove('active'); });
     e.target.classList.add('active');
   });
