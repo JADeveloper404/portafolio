@@ -375,8 +375,9 @@ body {
 }
 @media screen and (max-width: 515px) {
   .footer .redes a {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    font-size: 1.25rem;
   }
 }
 @media screen and (max-width: 477px) {
