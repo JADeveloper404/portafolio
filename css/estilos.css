@@ -345,8 +345,8 @@ body {
   .header .contenedor .barra .opciones {
     position: absolute;
     right: 0;
-    height: 88vh;
-    top: 12vh;
+    height: 90vh;
+    top: 10vh;
     background: #1b262c;
     width: 50%;
     display: flex;
@@ -361,6 +361,21 @@ body {
   }
   .header .contenedor .despliegue {
     display: block;
+  }
+}
+@media screen and (max-width: 667px) {
+  .tecnologias .contenedor .contenido-tecnologias .tecnologia {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .trabajos .contenedor .contenido-trabajos .trabajo {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 515px) {
+  .footer .redes a {
+    width: 50px;
   }
 }
 .opt-active {
