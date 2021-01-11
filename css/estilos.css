@@ -68,6 +68,14 @@ body {
 .header .contenedor .barra .opciones li .active {
   border-bottom: 2px solid #bbe1fa;
 }
+.header .contenedor .despliegue {
+  display: none;
+  cursor: pointer;
+}
+.header .contenedor .despliegue a {
+  color: #ffffff;
+  font-size: 23px;
+}
 
 .presentacion {
   width: 100%;
@@ -327,6 +335,47 @@ body {
   text-decoration: none;
   color: #3282b8;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .header .contenedor .barra .opciones {
+    position: absolute;
+    right: 0;
+    height: 88vh;
+    top: 12vh;
+    background: #1b262c;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    transform: translateX(100%);
+  }
+  .header .contenedor .barra .opciones li {
+    opacity: 0;
+  }
+  .header .contenedor .despliegue {
+    display: block;
+  }
+}
+.opt-active {
+  transform: translateX(0%) !important;
+}
+
+@keyframes li-desvanecer {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

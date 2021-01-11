@@ -48,5 +48,13 @@
         }
       }
     }
+    .despliegue {
+      display: none;
+      cursor: pointer;
+      a {
+        color: #ffffff;
+        font-size: 23px;
+      }
+    }
   }
 }

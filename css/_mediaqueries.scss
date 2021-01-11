@@ -1,0 +1,46 @@
+@media screen and (max-width:768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header {
+    .contenedor {
+      .barra {
+        .opciones {
+          position: absolute;
+          right: 0;
+          height: 88vh;
+          top: 12vh;
+          background: $primerColor;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          padding: 40px;
+          transform: translateX(100%);
+          li {
+            opacity: 0;
+          }
+        }
+      }
+      .despliegue {
+        display: block;
+      }
+    }
+  }
+}
+
+.opt-active {
+  transform: translateX(0%) !important;
+}
+
+@keyframes li-desvanecer {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
