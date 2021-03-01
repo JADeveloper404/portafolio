@@ -10,6 +10,7 @@ body {
   background: #f2f2f2;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 .contenedor {
@@ -32,16 +33,17 @@ body {
   height: 100%;
 }
 .header .contenedor .logo {
-  width: 64px;
+  width: 200px;
   height: 64px;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
 }
 .header .contenedor .logo a {
   text-decoration: none;
   color: #0f4c75;
 }
 .header .contenedor .logo a img {
-  width: 100%;
+  width: 40%;
   height: 100%;
   background-size: cover;
   color: #0f4c75;
@@ -80,9 +82,10 @@ body {
 .presentacion {
   width: 100%;
   height: calc(100vh - 90px);
-  background: url("../img/bg-pre.jpg");
+  background: url("../img/logo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .presentacion .contenedor {
   height: 100%;
@@ -342,7 +345,7 @@ body {
     overflow-x: hidden;
   }
 
-  .header .contenedor .barra .opciones {
+  .header .contenedor .barra {
     position: absolute;
     right: 0;
     height: 90vh;
@@ -355,6 +358,13 @@ body {
     align-items: center;
     padding: 40px;
     transform: translateX(100%);
+  }
+  .header .contenedor .barra .opciones {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   .header .contenedor .barra .opciones li {
     opacity: 0;

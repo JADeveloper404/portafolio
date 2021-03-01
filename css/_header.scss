@@ -10,18 +10,21 @@
     align-items: center;
     height: 100%;
     .logo {
-      width: 64px;
+      width: 200px;
       height: 64px;
-      display: inline-block;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        width: 40%;
+        height: 100%;
+        background-size: cover;
+        color: $segundoColor;
+      }
       a{
         text-decoration: none;
         color: $segundoColor;
-        img {
-          width: 100%;
-          height: 100%;
-          background-size: cover;
-          color: $segundoColor;
-        }
+        height: 100%;
       }
     }
     .barra {

@@ -1,9 +1,10 @@
 .presentacion {
   width: 100%;
   height: calc(100vh - 90px);
-  background: url('../img/bg-pre.jpg');
+  background: url('../img/logo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   .contenedor {
     height: 100%;
     display: flex;
